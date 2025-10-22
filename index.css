@@ -14,5 +14,6 @@ body{margin:0;background:var(--bg);color:#111}
 .actions{margin-top:8px;display:flex;gap:8px}
 .action{cursor:pointer;color:#666}
 .comment{margin-top:8px;padding:8px;background:#fafbfc;border-radius:8px}
-.comments-list{margin-top:8px}
-.small{font-size:13px;color:#666}
+.comments-list{margin-top:10px}
+.small{font-size:15px;color:#666}
+
