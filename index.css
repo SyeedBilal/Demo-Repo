@@ -16,4 +16,6 @@ body{margin:0;background:var(--bg);color:#111}
 .comment{margin-top:8px;padding:8px;background:#fafbfc;border-radius:8px}
 .comments-list{margin-top:100px}
 .small{font-size:150px;color:#666}
+.comments-list{margin-top:12px}
+.small{font-size:100px;color:#666}
 
