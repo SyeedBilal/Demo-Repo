@@ -1,0 +1,21 @@
+:root{--bg:#f4f6f8;--card:#fff;--accent:#1da1f2}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+body{margin:0;background:var(--bg);color:#111}
+.app{max-width:900px;margin:28px auto;padding:16px}
+.header{display:flex;align-items:center;justify-content:space-between}
+.card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,0.06);margin-bottom:12px}
+.new-post textarea{width:100%;height:80px;border-radius:8px;padding:8px;border:1px solid #e3e6ea}
+.new-post button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:8px;cursor:pointer}
+.posts{margin-top:16px}
+.post{display:flex;gap:12px}
+.avatar{width:48px;height:48px;border-radius:50%;background:#ddd;flex:0 0 48px}
+.post-body{flex:1}
+.meta{display:flex;align-items:center;gap:8px;color:#666;font-size:13px}
+.actions{margin-top:8px;display:flex;gap:8px}
+.action{cursor:pointer;color:#666}
+.comment{margin-top:8px;padding:8px;background:#fafbfc;border-radius:8px}
+.comments-list{margin-top:100px}
+.small{font-size:150px;color:#666}
+.comments-list{margin-top:12px}
+.small{font-size:100px;color:#666}
+
